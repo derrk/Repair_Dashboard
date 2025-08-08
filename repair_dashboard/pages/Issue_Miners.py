@@ -3,7 +3,7 @@ import streamlit as st
 import ipaddress
 from datetime import datetime 
 
-CSV_FILE = r"../data/Block 2 Issue Miners.csv"  # update path if needed  # your file with columns: Miner IP, serial, issue, days left of warranty, warranty expiration date
+CSV_FILE = r"repair_dashboard/data/Block 2 Issue Miners.csv"  # update path if needed  # your file with columns: Miner IP, serial, issue, days left of warranty, warranty expiration date
 
 # ---- Load data (cached) ----
 @st.cache_data
